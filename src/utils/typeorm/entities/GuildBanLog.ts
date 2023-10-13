@@ -1,6 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity({ name: 'guild_bans' })
+@Entity({ name: 'dashboard_guild_bans' })
 export class GuildBanLog {
   @PrimaryGeneratedColumn()
   id: number;

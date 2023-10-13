@@ -52,14 +52,14 @@ DISCORD_BOT_TOKEN=YOUR BOT TOKEN
 
 # MySQL Server Settings
 
-MYSQL_DB_HOST=
-MYSQL_DB_USERNAME=
-MYSQL_DB_PASSWORD=
-MYSQL_DB_DATABASE=discord_dashboard
+DB_HOST=
+DB_USERNAME=
+DB_PASSWORD=
+DB_DATABASE=discord_dashboard
 ```
 
 I've left some values blank, you need to fill them out yourself. All Discord related properties can be found on the Discord Developer Portal, under your application. One thing I want to note is I left the `DISCORD_REDIRECT_URL` variable with the value I used in the videos. You can change this if you want, but make sure it is the same value as the redirect url you set on your Discord application.
 
-Fill out the MySQL properties based on your host, username, and password. If you're using MySQL server on your local machine, you can use `localhost` for `MYSQL_DB_HOST`. The database name I used in the video is `discord_dashboard`, but you can change that if you want.
+Fill out the MySQL properties based on your host, username, and password. If you're using MySQL server on your local machine, you can use `localhost` for `DB_HOST`. The database name I used in the video is `discord_dashboard`, but you can change that if you want.
 
 For further questions, visit our Discord server (link is at the top).

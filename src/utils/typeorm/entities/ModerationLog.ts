@@ -1,7 +1,7 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 import { ModerationActionType } from '../../types';
 
-@Entity({ name: 'moderation_logs' })
+@Entity({ name: 'dashboard_moderation_logs' })
 export class ModerationLog {
   @PrimaryGeneratedColumn()
   id: number;

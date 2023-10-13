@@ -1,6 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity({ name: 'guild_configurations' })
+@Entity({ name: 'dashboard_guild_configurations' })
 export class GuildConfiguration {
   @PrimaryGeneratedColumn()
   id: number;
